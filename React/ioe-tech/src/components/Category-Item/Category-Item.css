@@ -1,0 +1,12 @@
+.category{
+    text-align: center ;
+    width: 100% ;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer ;
+}
+.active{
+    color: #2766cc ;
+    background: linear-gradient(to right,white 50% , rgba(39, 102, 204,0.2)  );
+    border-right: 4px solid #2766cc ;
+}

@@ -1,0 +1,28 @@
+.bag-item__card {
+  width: 100%;
+  padding: 0 35px;
+  margin-bottom: 50px;
+}
+.bag-item__card-price {
+  margin-top: 10px;
+}
+.bag-item__price-desc {
+  padding: 10px 0;
+  color: grey;
+}
+.bag-item___footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bag-item__counter {
+  margin: 2px;
+  display: inline-block;
+  cursor: default;
+  text-align: center;
+  padding: 5px;
+}
+.number {
+  background-color: white;
+  color: black;
+}

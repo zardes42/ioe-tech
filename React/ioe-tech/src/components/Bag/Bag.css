@@ -1,0 +1,19 @@
+.cart-items{
+width: 90%;
+}
+.bag-header{
+    display: flex ;
+    width:90% ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.clear-bag{
+    text-decoration: underline;
+    margin-left: -50px;
+    font-size: 17px;
+    margin-top: 45px;
+    cursor: default ;
+}
+.empty{
+    display: none ;
+}

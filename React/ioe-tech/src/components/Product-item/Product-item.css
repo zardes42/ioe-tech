@@ -1,0 +1,68 @@
+.card{
+    width:100% ;
+    padding: 0.7rem 0;
+    margin:5px 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.card:hover > .card-img{
+    border-left: 4px solid #2766cc ;
+
+}
+.card-img{
+    border-left: 2px solid white ;
+    display: flex;
+    width:20% ;
+    padding:0 0.5rem;
+    justify-content: flex-end;
+    
+
+}
+img{
+    width: 100px;
+    height: 100px ;
+}
+.card-body{
+    padding:  0.4rem;
+    width:75% ;
+    display:flex ;
+    flex-direction: column;
+    align-content: space-between;
+}
+.card-price{
+    font-weight: 600;
+    padding: 0.8rem 0 ;
+    color: grey ;
+
+}
+.btn-card{
+    display: flex;
+    flex-direction: row;
+    background-color:white ;
+    padding: 7px 17px ;
+    color:#2766cc ;
+    align-self: flex-end;
+    border:1px solid #2766cc;
+    border-radius : 3px ;
+    cursor :pointer ;
+}
+.btn-card:hover{
+    transition : 0.8s ;
+    background-color: #2766cc;
+    color : white ;
+}
+.icon{
+    padding-right:5px ;
+}
+@media screen and (min-width: 650px) and (max-width:1140px){
+    .img{
+        width: 5rem;
+        height: 5rem ;
+    }
+    .card:hover > .card-img{
+        border-left:none ;
+    
+    }
+}
+
