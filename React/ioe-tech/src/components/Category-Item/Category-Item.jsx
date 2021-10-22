@@ -1,11 +1,11 @@
 import './Category-Item.css';
 
 
-const CategoryItem = ({item ,addActive, onSort}) => {
-  let  classes = item.active === true ? 'category active' : 'category' ;
+const CategoryItem = ({item , onSort, sortBy}) => {
+  let  classes = sortBy === item ? 'category active' : 'category' ;
 
     return ( 
-        <div id={item.id} className={classes} onClick={() => {addActive(item.id); onSort(item.name)}}>{item.name}</div>
+        <div id={item} className={classes} onClick={() => {onSort(item)}}>{item}</div>
      );
 }
  
