@@ -13,6 +13,6 @@ const ProductList = ({items , onAdd ,onSearch}) => {
             <h2 className='list_heading'>All <span className='badge'>{items!== null? items.length:<p></p>}</span></h2>
             {items!== null ?  items.map(item => <ProductItem details={item} key={item.id} onAdd={onAdd}  />) : <p></p>} 
      </div>
-    );}
+    )}
  
 export default ProductList;

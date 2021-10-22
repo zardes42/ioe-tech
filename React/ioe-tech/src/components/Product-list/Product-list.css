@@ -22,7 +22,7 @@
 .search-bar__input{
     width: 80%;
     border: 1px solid #2766cc ;
-    font-size: 1.1rem;
+    font-size: 15px;
     padding-left: 20px;
     height: 36px ;
     border-radius: 4px 0 0 4px;
@@ -41,4 +41,13 @@
     background-color: rgba(248, 222, 75, 255);
     outline: none;
 
+}
+@media only screen and (max-width:650px){
+    .product_list{
+        margin-left: 30px;
+    }
+    .list_heading{
+        padding: 30px ;
+        
+    }
 }

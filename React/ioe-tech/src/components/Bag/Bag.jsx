@@ -5,7 +5,7 @@ const Bag = ({ chosenItems, onClearCart, clearItem }) => {
   // const renderItems = [];
 
   return (
-    <div>
+    <div className='bag'>
       <div className="bag-header">
         <h2 className="list_heading">
           {" "}

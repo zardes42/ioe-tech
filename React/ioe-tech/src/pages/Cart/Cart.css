@@ -1,0 +1,34 @@
+.empty-cart{
+    margin-top : 100px ;
+}
+.empty-cart-btn__container{
+    width: 100%;
+    /* background-color:red; */
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 20px ;
+
+    
+}
+.empty-cart__btn{
+    width: 250px ;
+    padding: 10px 35px ;
+    border: 1px solid white ;
+    border-radius: 7px ;
+    background-color:  #2267cc;
+    color: white ;
+    cursor: pointer; 
+
+}
+.empty-cart__btn:hover{
+    background-color: #2266cc26 ;
+    color:  #2267cc;
+}
+@media only screen and (max-width:500px) {
+    .empty-cart__btn{
+    height: 60px ;
+
+    }
+    
+}

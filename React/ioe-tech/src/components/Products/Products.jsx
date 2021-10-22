@@ -80,7 +80,7 @@ const Products = () => {
     <div className="row">
       <div className="col"><Categories sortBy={sortBy} Categories={getCategories()} onSort={onSort} /> </div>
       <div className="col-mid">
-        <ProductList onSearch={onSearch} items={filteredList} onAdd={onAdd} />{" "} ;
+        <ProductList onSearch={onSearch} items={filteredList} onAdd={onAdd} />{" "} 
       </div>
       <div className="col products_cart">
         <Bag
